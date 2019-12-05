@@ -2,11 +2,11 @@ FROM ubuntu:16.04
 
 MAINTAINER Tauve Tauvetech <"tauvetech@gmail.com">
 
-RUN echo -n 'Acquire::http::Proxy "http://proxy:3128";' > /etc/apt/apt.conf
-RUN echo -n 'Acquire::httpis:Proxy "https://proxy:3128";' > /etc/apt/apt.conf
+#RUN echo -n 'Acquire::http::Proxy "http://proxy:3128";' > /etc/apt/apt.conf
+#RUN echo -n 'Acquire::httpis:Proxy "https://proxy:3128";' > /etc/apt/apt.conf
 
-ENV http_proxy http://proxy:3128
-ENV https_proxy https://proxy:3128
+#ENV http_proxy http://proxy:3128
+#ENV https_proxy https://proxy:3128
 
 
 #install for ROS2:
