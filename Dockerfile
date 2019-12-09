@@ -129,5 +129,5 @@ RUN echo ". /opt/rti.com/rti_connext_dds-5.3.1/resource/scripts/rtisetenv_x64Lin
 #source ~/rti_connext_dds-5.3.1/resource/scripts/rtisetenv_x64Linux3gcc5.4.0.bash
 #Now you can build as normal and support for RTI will be built as well.
 
-WORKDIR /root/ros2_ws
-RUN colcon build --symlink-install --packages-ignore qt_gui_cpp rqt_gui_cpp
+#WORKDIR /root/ros2_ws
+#RUN colcon build --symlink-install --packages-ignore qt_gui_cpp rqt_gui_cpp
